@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #4caf50 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+header ul li {
+    display: inline;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: left;
+    display: inline;
+    font-size: 24px;
+    padding: 0px 10px 0px 10px;
+    line-height: 70px;
+}
+
+.hero {
+    background: #e8491d;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+
+.hero h2 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.about {
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.about h2 {
+    text-align: center;
+    color: #e8491d;
+    font-size: 40px;
+}
+
+.about p {
+    padding: 20px;
+    text-align: center;
+}
+
+.inventory {
+    padding: 30px 0;
+}
+
+.inventory h2 {
+    text-align: center;
+    color: #e8491d;
+    font-size: 40px;
+}
+
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.car {
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.car h3 {
+    color: #e8491d;
+}
+
+.car p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.contact {
+    padding: 30px 0;
+}
+
+.contact form {
+    background: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.contact button[type="submit"] {
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
